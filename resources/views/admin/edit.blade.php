@@ -1,4 +1,4 @@
-@extends('layoutadmin.content')
+@extends('LayoutAdmin.content')
 @section('content')
 <div class="row">
     <div class="col-xl-6 col-lg-7">

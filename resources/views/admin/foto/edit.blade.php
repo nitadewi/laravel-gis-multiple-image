@@ -1,4 +1,4 @@
-@extends('layoutadmin.content')
+@extends('LayoutAdmin.content')
 @section('content')
 <div class="form-group">
     <label>Photos</label>
