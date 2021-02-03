@@ -1,6 +1,6 @@
-@include('layoutadmin.head')
-@include('layoutadmin.header')
-@include('layoutadmin.nav')
+@include('LayoutAdmin.head')
+@include('LayoutAdmin.header')
+@include('LayoutAdmin.nav')
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -11,4 +11,4 @@
 </div>
 <!-- End of Main Content -->
 
-@include('layoutadmin.footer')
+@include('LayoutAdmin.footer')
