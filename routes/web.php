@@ -24,6 +24,6 @@ Route::resource('/foto', 'FotoController');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/maps', 'HomeController@maps');
 Route::get('/atraction', 'HomeController@wisata');

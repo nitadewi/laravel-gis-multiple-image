@@ -27,23 +27,6 @@
             center: [107.6425043, -2.7356446],
             zoom: 13
         });
-
-
-
-
-        var directions = new mapboxgl.Directions({
-            unit: 'metric', // Use the metric system to display distances.
-            profile: 'walking', // Set the initial profile to walking.
-            container: 'directions', // Specify an element thats not the map container.
-            proximity: [-79.45, 43.65] // Give search results closer to these coordinates higher priority.
-        });
-        map.on('load', function() {
-            directions.setOrigin('Toronto, Ontario'); // On load, set the origin to "Toronto, Ontario".
-            directions.setDestination('Montreal, Quebec'); // On load, set the destination to "Montreal, Quebec".
-        });
-        directions.on('route', function(e) {
-            console.log(e.route); // Logs the current route shown in the interface.
-        });
         map.addControl(
             'top-left'
         );
