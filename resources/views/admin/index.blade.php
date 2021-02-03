@@ -1,4 +1,4 @@
-@extends('layoutadmin.content')
+@extends('LayoutAdmin.content')
 @section('content')
 <div class="card shadow mb-4">
     <div class="card-header py-3">
