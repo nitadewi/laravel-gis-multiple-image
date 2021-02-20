@@ -28,8 +28,15 @@
             zoom: 13
         });
         map.addControl(
+            new MapboxDirections({
+                accessToken: mapboxgl.accessToken
+            }),
             'top-left'
         );
+
+        var marker = new mapboxgl.Marker()
+            .setLngLat([107.6425043, -2.7356446])
+            .addTo(map);
     </script>
 </section><!-- End Map Section -->
 @endsection

@@ -64,7 +64,7 @@ class AdminController extends Controller
         $wisata->foto()->createMany($allImagesPathes);
 
 
-        return redirect()->route('/tambah');
+        return redirect()->url('/daftar');
     }
 
     public function edit($id)
