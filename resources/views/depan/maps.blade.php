@@ -27,16 +27,16 @@
             center: [107.6425043, -2.7356446],
             zoom: 13
         });
-        map.addControl(
-            new MapboxDirections({
-                accessToken: mapboxgl.accessToken
-            }),
-            'top-left'
-        );
+        var directions = new MapboxDirections({
+            accessToken: mapboxgl.accessToken
+        });
 
-        var marker = new mapboxgl.Marker()
-            .setLngLat([107.6425043, -2.7356446])
-            .addTo(map);
+        map.addControl(directions, 'top-left');
+
+        map.on('load', function() {
+            directions.setOrigin([107.64095934760599, -2.7393311079020037]);
+            directions.setDestination([107.63366373908309, -2.7423317454915406]);
+        })
     </script>
 </section><!-- End Map Section -->
 @endsection
