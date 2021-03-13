@@ -45,7 +45,6 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
             'host' => 'sql10.freemysqlhosting.net',
             'port' => '3306',
             'database' => 'sql10398208',
