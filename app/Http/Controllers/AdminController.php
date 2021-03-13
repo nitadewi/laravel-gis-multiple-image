@@ -40,7 +40,7 @@ class AdminController extends Controller
             'ltd' => 'required',
             'lngtd' => 'required',
             'filename' => 'required',
-            'filename.*' => 'image:mimes:jpeg,png,jpg,gif,svg',
+            // 'filename.*' => 'image:mimes:jpeg,png,jpg,gif,svg',
         ]);
 
 
