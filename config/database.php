@@ -45,11 +45,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'sql10.freemysqlhosting.net',
-            'port' => '3306',
-            'database' => 'sql10398208',
-            'username' => 'sql10398208',
-            'password' => '43THng6FRQ',
+            'host' => 'mysql-19724-0.cloudclusters.net',
+            'port' => '19724',
+            'database' => 'skripsi',
+            'username' => 'admin',
+            'password' => 'skripsi123',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_general_ci',
